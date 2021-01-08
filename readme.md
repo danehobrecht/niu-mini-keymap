@@ -1,6 +1,6 @@
 #danehobrecht
 
-Flashing Instructions:
+Flashing Instructions (GNU/Linux):
 
 Download and migrate the "danehobrecht" folder listed in this repository to: ~/qmk_firmware/keyboards/niu_mini/keymaps
 
