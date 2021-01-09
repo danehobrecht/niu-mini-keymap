@@ -12,10 +12,11 @@ You should recieve this error:
 
 >ERROR: Bootloader not found. Trying again in 5s
 
-This is indicating that the board is waiting to be reset*. Resetting can
+This is indicating that the board is waiting to be reset. Resetting can
 be done with an assigned macro, or via the button located on the PCB.
 This can be accessed through the bottomside of the case. 
-*Note: Ensure RGB is toggled "on" prior to resetting. 
+
+Note: Ensure RGB is toggled "on" prior to resetting.
 
 If the flash is successful, you will recieve the following:
 
