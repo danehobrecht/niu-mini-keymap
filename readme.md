@@ -2,9 +2,11 @@
 
 Flashing Instructions (GNU/Linux):
 
-Download and migrate the "danehobrecht" folder listed in this repository to: ~/qmk_firmware/keyboards/niu_mini/keymaps
+Download and migrate the zip of this repository to: ~/qmk_firmware/keyboards/niu_mini/keymaps. 
 
-Open terminal and run:
+Extract the folder and rename it to "danehobrecht"
+
+Open the terminal and run:
 
 >qmk flash -kb niu_mini -km danehobrecht
 
@@ -14,7 +16,7 @@ You should recieve this error:
 
 This is indicating that the board is waiting to be reset. Resetting can
 be done with an assigned macro, or via the button located on the PCB.
-This can be accessed through the bottomside of the case. 
+This can be accessed through the bottomside of the case.
 
 Note: Ensure RGB is toggled "on" prior to resetting.
 
