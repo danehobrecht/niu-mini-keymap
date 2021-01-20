@@ -24,6 +24,6 @@ If the flash is successful, you will recieve the following:
 
 >Bootloader Version: 0x00 (0)
 >Validating...
->26424 bytes used (92.16%)
+>26328 bytes used (91.82%)
 
 Done!
