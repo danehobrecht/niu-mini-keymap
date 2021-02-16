@@ -8,7 +8,7 @@ Extract the folder and rename it to "danehobrecht"
 
 Open the terminal and run:
 
->qmk flash -kb niu_mini -km danehobrecht
+    qmk flash -kb niu_mini -km danehobrecht
 
 You should recieve this error:
 
