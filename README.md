@@ -1,4 +1,4 @@
-#danehobrecht
+# Niu Mini Keymap
 
 Flashing Instructions (GNU/Linux):
 
