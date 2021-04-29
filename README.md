@@ -21,8 +21,8 @@ be done with the PCB button accessible via the underside of the board.
 
 If the flash is successful, you will recieve the following:
 
->Bootloader Version: 0x00 (0)
->Validating...
->25238 bytes used (88.02%)
+>Bootloader Version: 0x00 (0)  
+>Validating...  
+>25238 bytes used (88.02%)  
 
 Done!
