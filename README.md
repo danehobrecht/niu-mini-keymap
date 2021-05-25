@@ -2,13 +2,13 @@
 
 Flashing Instructions (GNU/Linux):
 
-1. Download/extract the repository zip and rename it to "danehobrecht".
+1. Download/extract the repository zip and rename it to "tmuq".
 
 2. Migrate the folder to: ~/qmk_firmware/keyboards/niu_mini/keymaps. 
 
 3. Open the terminal inside the directory and run:
 
-    qmk flash -kb niu_mini -km danehobrecht
+    qmk flash -kb niu_mini -km tmuq
 
 You should recieve this error:
 
