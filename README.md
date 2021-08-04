@@ -6,8 +6,10 @@
 ```sh
 git clone https://github.com/tmuq/niu-mini-keymap && sudo mv niu-mini-keymap tmuq
 ```
-3. Open the terminal inside `keymaps` directory and run `qmk flash -kb niu_mini -km tmuq`
-
+3. Open the terminal inside `keymaps` directory and run:
+```sh
+qmk flash -kb niu_mini -km tmuq`
+```
 You should recieve a bootloader error:
 ```sh
 Bootloader not found. Trying again every 0.5s (Ctrl+C to cancel)
