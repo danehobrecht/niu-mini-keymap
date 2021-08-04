@@ -2,8 +2,8 @@
 
 #### Flashing Instructions (GNU/Linux):
 1. [Setup QMK.](https://docs.qmk.fm/#/newbs_getting_started)
-2. Download/extract the repository zip and rename it to "tmuq".
-3. Migrate the folder to `~/qmk_firmware/keyboards/niu_mini/keymaps`. 
+2. Navigate to `~/qmk_firmware/keyboards/niu_mini/keymaps` and run:
+`git clone https://github.com/tmuq/niu-mini-keymap && sudo mv niu-mini-keymap tmuq`
 4. Open the terminal inside `keymaps` directory and run `qmk flash -kb niu_mini -km tmuq`
 
 You should recieve a bootloader error:
