@@ -10,7 +10,7 @@ You should recieve a bootloader error:
 ```
 Bootloader not found. Trying again every 0.5s (Ctrl+C to cancel)
 ```
-This is indicating that the board is waiting to be reset; this can be done with the physical reset button on the PCB, which should be externally accessible from the underside of the board. If this isn't the case, pun intended, you might have to disassemble the keyboard to reach it. **Note: as a preventative measure, ensure RGB is toggled "on" prior to resetting. QMK might not recognize the bootloader otherwise.**
+This is indicating that the board is waiting to be reset. Resetting can be done with the physical reset button on the bottom of the PCB, which should be externally accessible from the underside of the board. If this isn't the case, pun intended, you might have to disassemble the keyboard to reach it. **Note: as a preventative measure, ensure RGB is toggled "on" prior to resetting. QMK might not recognize the bootloader otherwise.**
 
 If the flash is successful, you will recieve the following:
 ```
