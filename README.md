@@ -1,5 +1,5 @@
 # Niu Mini Keymap
-#### Flashing Instructions (GNU/Linux):
+#### Flashing instructions (GNU/Linux):
 1. [Setup QMK.](https://docs.qmk.fm/#/newbs_getting_started)
 2. Open a terminal in the `keymaps` directory located at `~/qmk_firmware/keyboards/niu_mini/keymaps` and run:
 ```sh
