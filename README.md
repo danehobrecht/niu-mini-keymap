@@ -21,6 +21,6 @@ If the flash is successful, you will recieve the following:
 ```sh
 Bootloader Version: 0x00 (0)
 Validating...
-25234 bytes used (88.01%)
+25240 bytes used (88.03%)
 ```
 Verify the flash was successful with a regular keyboard functionality.
