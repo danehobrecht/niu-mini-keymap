@@ -13,9 +13,9 @@ You should recieve a bootloader error:
 ```sh
 Bootloader not found. Trying again every 0.5s (Ctrl+C to cancel)
 ```
-This is indicating that the board is waiting to be reset. Resetting can be done with the physical reset button embedded in the P.C.B., which should be externally accessible from the underside of the board (you'll need something thin, yet rigid to be able to hit the button through the slim opening—such as the projectile piece from the Lego Star Wars Millenium Falcon set. Not saying that from experience, of course). If this isn't the case, pun intended, you might have to disassemble the keyboard to reach it.
- 
-**Note: as a preemptive measure, ensure RGB is toggled "on" prior to resetting. QMK might not recognize the bootloader otherwise.**
+This message indicates that the board is waiting to be reset, which can be done with the physical reset button accessible from the opening of the underside of the case. You'll need something thin, yet rigid to be able to hit the button through the slim opening — such as the projectile piece from a Millenium Falcon Lego set. I'm not saying that from experience, of course.
+
+**Ensure RGB is toggled "on" prior to resetting. QMK might not recognize the bootloader otherwise.**
 
 If the flash is successful, you will recieve the following:
 ```sh
