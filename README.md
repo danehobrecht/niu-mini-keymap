@@ -3,11 +3,11 @@
 1. [Setup QMK](https://docs.qmk.fm/#/newbs_getting_started).
 2. Open a terminal in the `keymaps` directory located at `~/qmk_firmware/keyboards/niu_mini/keymaps` and run:
 ```sh
-git clone https://github.com/tmuq/niu-mini-keymap && sudo mv niu-mini-keymap tmuq
+git clone https://github.com/danehobrecht/niu-mini-keymap && mv niu-mini-keymap danehobrecht
 ```
 3. Flash:
 ```sh
-qmk flash -kb niu_mini -km tmuq
+qmk flash -kb niu_mini -km danehobrecht
 ```
 You should recieve a bootloader error:
 ```sh
