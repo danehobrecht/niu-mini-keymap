@@ -16,8 +16,6 @@
 
 #include QMK_KEYBOARD_H
 
-rgblight_setrgb(RGB_BLUE);
-
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 	/* Layer 0
